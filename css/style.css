@@ -1,0 +1,63 @@
+body {
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+}
+.logo {
+  text-decoration: none;
+  color: #2196f3;
+  width: 145px;
+  height: 31px;
+  font-family: Raleway;
+
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo span {
+  color: black;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.link {
+  text-decoration: none;
+  color: #212121;
+}
+li {
+  list-style-type: none;
+}
+.nav-contacs a {
+  text-decoration: none;
+  color: #757575;
+}
+.nav-contacs a:hover,
+.nav-contacs a:focus {
+  color: #2196f3;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+h1,
+h2,
+h3,
+p {
+  color: #212121;
+}
+
+.comand p {
+  color: #757575;
+}
+footer {
+  background-color: #2f303a;
+}
+.address {
+  color: #ffffff;
+}
+.address-contant a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
