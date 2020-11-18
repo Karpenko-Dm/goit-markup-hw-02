@@ -1,3 +1,8 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #757575;
+  --accent-volor: #ffffff;
+}
 body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
@@ -110,8 +115,22 @@ footer {
   font-size: 14px;
   line-height: 1.71;
 }
+/*Портфолио*/
 .our-work {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+
+.portfolio h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+.portfolio p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
 }
