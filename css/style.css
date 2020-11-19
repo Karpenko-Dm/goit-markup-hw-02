@@ -1,33 +1,44 @@
 :root {
-  --primary-text-color: #757575;
+  --primary-text-color: #212121;
   --title-text-color: #757575;
-  --accent-volor: #ffffff;
+  --accent-color: #2196f3;
 }
+
 body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
 }
+
 .logo {
   text-decoration: none;
-  color: #2196f3;
-  width: 145px;
-  height: 31px;
-  font-family: Raleway;
-
+  color: #000000;
+  font-size: 26px;
+  height: 1.19;
+  font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
 }
 .logo span {
-  color: black;
+  color: var(--accent-color);
+}
+.futter-logo {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 26px;
+  height: 1.19;
+  font-family: Raleway, sans-serif;
 }
 
+.futter-logo span {
+  color: var(--accent-color);
+}
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .link {
   text-decoration: none;
-  color: #212121;
+  color: var(--primary-text-color);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -37,30 +48,30 @@ li {
 }
 .nav-contacs a {
   text-decoration: none;
-  color: #757575;
+  color: var(--title-text-color);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
 }
 .nav-contacs a:hover,
 .nav-contacs a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .button {
   text-decoration: none;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: #ffffff;
 }
 h1,
 h2,
 h3,
 p {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 /* comand  */
 .comand p {
-  color: #757575;
+  color: var(--title-text-color);
 
   font-size: 16px;
   line-height: 1.18;
@@ -78,14 +89,12 @@ footer {
 .address {
   font-style: normal;
   color: #ffffff;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 .address-contant a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -111,7 +120,7 @@ footer {
   line-height: 1.14;
 }
 .features p {
-  color: #757575;
+  color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.71;
 }
@@ -126,11 +135,11 @@ footer {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .portfolio p {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
-  color: #757575;
+  color: var(--title-text-color);
 }
