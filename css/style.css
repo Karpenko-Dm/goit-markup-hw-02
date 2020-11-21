@@ -21,17 +21,17 @@ body {
 .logo span {
   color: var(--accent-color);
 }
-.futter-logo {
+.footer-logo {
   text-decoration: none;
   color: #ffffff;
   font-size: 26px;
   height: 1.19;
   font-family: Raleway, sans-serif;
 }
-
-.futter-logo span {
+.footer-logo span {
   color: var(--accent-color);
 }
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -42,6 +42,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 li {
   list-style-type: none;
@@ -52,6 +53,7 @@ li {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav-contacs a:hover,
 .nav-contacs a:focus {
@@ -63,20 +65,35 @@ li {
   background-color: var(--accent-color);
   color: #ffffff;
 }
+.hero a {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
 h1,
 h2,
 h3,
 p {
   color: var(--primary-text-color);
 }
-/* comand  */
-.comand p {
-  color: var(--title-text-color);
+/* ouer team  */
 
-  font-size: 16px;
-  line-height: 1.18;
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
-.comand h3 {
+.team-list p {
+  color: var(--title-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.team-list h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -91,15 +108,14 @@ footer {
   color: #ffffff;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .address-contant a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-
   letter-spacing: 0.03em;
 }
 /* hero */
@@ -115,14 +131,26 @@ footer {
   text-transform: uppercase;
 }
 
+.title-work {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+
 .features h3 {
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+  font-family: Roboto;
 }
 .features p {
   color: var(--title-text-color);
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 /*Портфолио*/
 .our-work {
@@ -131,15 +159,39 @@ footer {
   text-align: center;
 }
 
-.portfolio h2 {
+.work-examples h2 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
-.portfolio p {
+.work-examples p {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
+}
+.link-current {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.list-menu a {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.list-menu a:hover,
+.list-menu a:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
