@@ -5,8 +5,19 @@
 }
 
 body {
-  background-color: #ffffff;
+  /*background-color: #ffffff; */
   font-family: Roboto, sans-serif;
+}
+
+.site-nav {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #ffffff;
+}
+.container-nav {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .logo {
@@ -18,10 +29,13 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
+
 .logo span {
   color: var(--accent-color);
 }
 .footer-logo {
+  margin-left: 215px;
+  margin-top: 60px;
   text-decoration: none;
   color: #ffffff;
   font-size: 26px;
@@ -55,16 +69,29 @@ li {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.nav-contacs {
+  padding: 0px;
+  margin: 0px;
+}
+.menu-nav {
+  padding: 0px;
+  margin: 0px;
+}
 .nav-contacs a:hover,
 .nav-contacs a:focus {
   color: var(--accent-color);
 }
 
 .button {
+  display: inline-block;
+  padding: 10px 32px;
+  margin-top: 40px;
   text-decoration: none;
+  border-radius: 4px;
   background-color: var(--accent-color);
   color: #ffffff;
 }
+
 .hero a {
   font-weight: bold;
   font-size: 16px;
@@ -81,6 +108,7 @@ p {
 /* ouer team  */
 
 .team-title {
+  margin-left: 668px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -98,8 +126,23 @@ p {
   font-size: 16px;
   line-height: 1.18;
 }
+.team-section {
+  margin-top: 94px;
+}
+.team-list {
+  margin-top: 50px;
+  margin-left: 215px;
+  margin-right: 215px;
+}
 
 /* footer  */
+.footer-address {
+  margin-top: 20px;
+  margin-left: 215px;
+}
+.footer-section {
+  margin-top: 94px;
+}
 footer {
   background-color: #2f303a;
 }
@@ -123,6 +166,10 @@ footer {
   background-color: #2f303a;
 }
 .title-hero {
+  margin-left: 452px;
+  padding-top: 200px;
+  margin-top: 0;
+  margin-bottom: 0;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -132,10 +179,21 @@ footer {
 }
 
 .title-work {
+  margin-top: 0px;
+  margin-left: 612px;
+
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
+}
+.work-container {
+  margin-top: 94px;
+}
+.work-list {
+  margin-top: 50px;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 
 .features h3 {
@@ -152,6 +210,16 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+ul .features {
+  margin-top: 0px;
+}
+.features-container {
+  margin-top: 94px;
+}
+.features-item {
+  width: 270px;
+  height: 101px;
 }
 /*Портфолио*/
 .our-work {
