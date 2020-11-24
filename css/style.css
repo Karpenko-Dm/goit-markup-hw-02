@@ -10,6 +10,7 @@ body {
 }
 
 .site-nav {
+  display: flex;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -74,6 +75,7 @@ li {
   margin: 0px;
 }
 .menu-nav {
+  display: flex;
   padding: 0px;
   margin: 0px;
 }
@@ -130,6 +132,7 @@ p {
   margin-top: 94px;
 }
 .team-list {
+  display: flex;
   margin-top: 50px;
   margin-left: 215px;
   margin-right: 215px;
@@ -191,6 +194,7 @@ footer {
   margin-top: 94px;
 }
 .work-list {
+  display: flex;
   margin-top: 50px;
   margin-left: 215px;
   margin-right: 215px;
@@ -216,7 +220,12 @@ ul .features {
 }
 .features-container {
   margin-top: 94px;
+  margin-left: 215px;
 }
+.features {
+  display: flex;
+}
+
 .features-item {
   width: 270px;
   height: 101px;
